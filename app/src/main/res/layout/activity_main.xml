@@ -1,86 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="@drawable/money"
-android:gravity="center"
-android:orientation="vertical"
-tools:context=".MainActivity">
-<LinearLayout
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:orientation="horizontal"
->
-<TextView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:text="CURRENCY CONVERTER"
-android:textColor="#000B01"
-android:textSize="25sp" />
-</LinearLayout>
-<LinearLayout
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:orientation="horizontal"
->
-<TextView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:text="ENTER AMOUNT"
-android:textColor="#0E0C0C"
-android:textSize="25sp" />
-<EditText
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:ems="10"
-android:id="@+id/txtamount"
-/>
-</LinearLayout>
-<LinearLayout
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:orientation="horizontal"
->
-<TextView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:textSize="20sp"
-android:text="From"/>
-<Spinner
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:ems="10"
-android:id="@+id/spfrom"
-/>
-</LinearLayout>
-<LinearLayout
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:orientation="horizontal"
->
-<TextView
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:textSize="20sp"
-android:text="To"/>
-<Spinner
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:ems="10"
-android:id="@+id/spto"
-/>
-</LinearLayout>
-<LinearLayout
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:orientation="horizontal">
-<Button
-android:id="@+id/btn1"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:background="@color/black"
-android:text="Convert" />
-</LinearLayout>
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/amountET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Amount"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/dollarToTakaRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DollarToTaka"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/takaToDollarRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TakaToDollar"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/convertBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/resultTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
 </LinearLayout>
