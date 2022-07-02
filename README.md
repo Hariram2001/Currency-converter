@@ -4,7 +4,7 @@
 
 ## Table of Contents
 * [Aim](#aim)
-* [Application Information](#application information)
+* [Application Information](#application-information)
 * [Application Features](#features)
 * [Description](#description)
 * [Setup](#setup)
@@ -13,36 +13,25 @@
 
 
 ## Aim
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- To develop a currency converter application
 
 
 ## Application Information
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Version - "1.0"
+- Updated on - 01.07.2022
+- Released on - 01.07.2022
+- Download size - 4 mb
 
 
 ## Application Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Currency analysis
+- Offline feature
+- Provides real time exchange rates
 
 
 ## Description
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Setup
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+ - With the help of Currency Converter, You don't need to worry about latest rates.
+ - You can convert and calculate and can get currency rates at any time.
 
 
 ## Screenshots
@@ -51,4 +40,4 @@ Provide various use cases and code examples here.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is:  _complete_ 
