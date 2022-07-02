@@ -5,7 +5,7 @@
 ## Table of Contents
 * [Aim](#aim)
 * [Application Information](#application-information)
-* [Application Features](#features)
+* [Application Features](#application-features)
 * [Description](#description)
 * [Setup](#setup)
 * [Screenshots](#screenshots)
