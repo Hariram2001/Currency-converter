@@ -35,7 +35,7 @@
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](https://user-images.githubusercontent.com/93965734/177778608-bd201bd5-c2cd-480e-8f07-491aa3cef70f.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
